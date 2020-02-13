@@ -168,13 +168,13 @@
 		</dependency>
 
 		<!-- ojdbc6 -->
-		<dependency>
-	        <groupId>com.oracle</groupId>
-	        <artifactId>ojdbc6</artifactId>
-	        <version>1.0</version>
-	        <scope>system</scope>
-	        <systemPath>D:/dev/workspace/StudyProject/src/main/resources/ilb/ojdbc6.jar</systemPath>
-        </dependency> 
+<!-- 		<dependency> -->
+<!-- 	        <groupId>com.oracle</groupId> -->
+<!-- 	        <artifactId>ojdbc6</artifactId> -->
+<!-- 	        <version>1.0</version> -->
+<!-- 	        <scope>system</scope> -->
+<!-- 	        <systemPath>D:/dev/workspace/StudyProject/src/main/resources/ilb/ojdbc6.jar</systemPath> -->
+<!--         </dependency>  -->
 
 		<!-- spring jdbc -->
 		<dependency>

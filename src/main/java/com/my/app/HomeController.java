@@ -1,4 +1,4 @@
-package com.my.app;
+package main.java.com.my.app;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -34,13 +34,6 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
-	}
-	
-	@RequestMapping(value = "/home2")
-	public String test() {
-		
-		
-		return "home2";
 	}
 	
 }
