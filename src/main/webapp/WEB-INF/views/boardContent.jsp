@@ -55,7 +55,7 @@
     margin: 0;
     transition: margin 85ms ease-in,background 85ms ease-in;
     width: 100%;
-/*     padding: 8px 12px; */
+    padding: 8px 12px;
     border-radius: 3px;
 }
 
@@ -225,7 +225,7 @@ textarea.list-card-composer-textarea, textarea.list-card-composer-textarea:focus
 <div class="board-wrapper">
 	
 		<div class="list-wrapper mod-add">
-			<a class="open-add-list">
+			<a class="open-add-list js-open-add-list">
 				<span class="placeholder"><i class="fas fa-plus icon-sm icon-add"></i>Add List</span>
 			</a>
 		</div>
@@ -248,7 +248,7 @@ textarea.list-card-composer-textarea, textarea.list-card-composer-textarea:focus
 						</div>
 					</div>
 				</div>
-				<a class="open-add-list">
+				<a class="open-add-list js-open-add-list">
 					<span class="placeholder"><i class="fas fa-plus icon-sm icon-add"></i>Add List</span>
 				</a>
 			</div>
@@ -274,12 +274,13 @@ textarea.list-card-composer-textarea, textarea.list-card-composer-textarea:focus
 						</div>
 					</div>
 				</div>
-				<a class="open-add-list">
+				<a class="open-add-list js-open-add-list">
 					<span class="placeholder"><i class="fas fa-plus icon-sm icon-add"></i>Add List</span>
 				</a>
 			</div>
 		</div>
 		
+<!-- 		<i class="fas fa-ellipsis-v"></i> -->
 </div>
 	
 </body>
