@@ -104,7 +104,7 @@
 
 .list-header {
     flex: 0 0 auto;
-    padding: 10px 8px;
+    padding: 18px 8px;
     padding-right: 8px;
     position: relative;
     min-height: 20px;
@@ -147,7 +147,7 @@ textarea.mod-list-name {
     border-radius: 3px;
     box-shadow: none;
     font-weight: 600;
-    margin: -4px 0;
+    margin: 3px 0;
     height: 20px;
     min-height: 20px;
     padding: 4px 8px;
@@ -174,7 +174,7 @@ textarea.list-card-composer-textarea, textarea.list-card-composer-textarea:focus
 .list-header-extras {
     position: absolute;
     right: 4px;
-    top: 4px;
+    top: 9px;
     z-index: 1;
 }
 
