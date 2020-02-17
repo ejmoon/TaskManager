@@ -5,6 +5,7 @@
 	<title>Home</title>
 	<link href="/resources/vendor/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="/resources/vendor/fontawesome/all.css" rel="stylesheet">
+	<link href="/resources/css/common.css" rel="stylesheet">
 	
 	<script src="/resources/vendor/jquery/jquery.min.js"></script>
 	<script src="/resources/vendor/bootstrap/bootstrap.min"></script>
@@ -15,14 +16,6 @@
 	</script>
 	
 </head>
-<style>
-#board-header {
-    height: auto;
-    padding: 8px 4px 4px 8px;
-    position: relative;
-    transition: padding .1s ease-in;
-}
-</style>
 <body>
 	<div id="header">
 		<%@ include file="/WEB-INF/views/header.jsp" %>
